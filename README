@@ -4,23 +4,23 @@ This dataset contains synthetic data simulating customer behavior for a Netflix-
 
 #### Data Source
 
-| Column                 | Description                                       |
-| --------------------- | ------------------------------------------------ |
-| `customer_id`          | Unique identifier for each customer.              |
-| `age`                  | Age of the customer.                              |
-| `gender`               | Gender of the customer.                           |
-| `subscription_type`    | Type of Netflix subscription (e.g., Basic, Standard, Premium). |
-| `watch_hours`          | Total hours the customer watched content.         |
-| `last_login_days`      | Number of days since the customer's last login.   |
-| `region`               | Geographical region of the customer.              |
-| `device`               | Primary device used by the customer to watch Netflix. |
-| `monthly_fee`          | Monthly subscription fee paid by the customer.    |
-| `churned`              | Indicates if the customer churned (1) or not (0). |
-| `payment_method`       | Payment method used by the customer.              |
-| `number_of_profiles`   | Number of profiles associated with the account.   |
-| `avg_watch_time_per_day` | Average daily watch time in hours.                |
-| `favorite_genre`       | Customer's most frequently watched genre.         |
+| Column                 | Description                                                    |
+| ---------------------- | -------------------------------------------------------------- |
+| customer_id            | Unique identifier for each customer.                           |
+| age                    | Age of the customer.                                           |
+| gender                 | Gender of the customer.                                        |
+| subscription_type      | Type of Netflix subscription (e.g., Basic, Standard, Premium). |
+| watch_hours            | Total hours the customer watched content.                      |
+| last_login_days        | Number of days since the customer's last login.                |
+| region                 | Geographical region of the customer.                           |
+| device                 | Primary device used by the customer to watch Netflix.          |
+| monthly_fee            | Monthly subscription fee paid by the customer.                 |
+| churned                | Indicates if the customer churned (1) or not (0).              |
+| payment_method         | Payment method used by the customer.                           |
+| number_of_profiles     | Number of profiles associated with the account.                |
+| avg_watch_time_per_day | Average daily watch time in hours.                             |
+| favorite_genre         | Customer's most frequently watched genre.                      |
 
 #### Data Source
 
-The data was sourced from Kaggle open dataset [Netflix Customer Churn - Abdul Wadood](https://www.kaggle.com/datasets/abdulwadood11220/netflix-customer-churn-dataset/data)  
+The data was sourced from Kaggle open dataset [Netflix Customer Churn - Abdul Wadood](https://www.kaggle.com/datasets/abdulwadood11220/netflix-customer-churn-dataset/data)
